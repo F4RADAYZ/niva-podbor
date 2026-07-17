@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Подбор фар для Нивы</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <div class="eyebrow">NTS AUTO • КОНФИГУРАТОР</div>
+      <h1>Подберите фары для своей Нивы</h1>
+      <p>Листайте варианты и сразу смотрите, как они выглядят на автомобиле.</p>
+    </section>
+
+    <section class="configurator">
+      <div class="stage-card">
+        <div class="car-stage" id="carStage">
+          <img class="car" src="assets/niva-front.jpg" alt="Нива, вид спереди">
+          <img class="lamp lamp-left" id="lampLeft" alt="">
+          <img class="lamp lamp-right" id="lampRight" alt="">
+          <div class="glow glow-left" id="glowLeft"></div>
+          <div class="glow glow-right" id="glowRight"></div>
+        </div>
+
+        <div class="stage-actions">
+          <button class="secondary" id="toggleLight" type="button">Включить свет</button>
+          <button class="secondary" id="compareOriginal" type="button">Показать штатные</button>
+        </div>
+      </div>
+
+      <aside class="product-card">
+        <div class="product-count" id="counter"></div>
+        <img class="product-image" id="productImage" alt="">
+        <h2 id="productName"></h2>
+        <p id="productDescription"></p>
+        <div class="price" id="productPrice"></div>
+
+        <div class="navigation">
+          <button class="arrow" id="prev" aria-label="Предыдущая фара">←</button>
+          <button class="buy" type="button">Подробнее</button>
+          <button class="arrow" id="next" aria-label="Следующая фара">→</button>
+        </div>
+
+        <div class="dots" id="dots"></div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

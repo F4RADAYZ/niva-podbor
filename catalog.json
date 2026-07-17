@@ -1,0 +1,20 @@
+[
+  {
+    "name": "LED Crystal",
+    "description": "Светодиодная фара с прозрачным кольцом",
+    "price": "12 900 ₽",
+    "image": "assets/lamp-crystal.png"
+  },
+  {
+    "name": "LED Turbine",
+    "description": "Чёрная линзованная фара с динамичным дизайном",
+    "price": "14 500 ₽",
+    "image": "assets/lamp-turbine.png"
+  },
+  {
+    "name": "LED Black",
+    "description": "Затемнённая линзованная фара",
+    "price": "15 900 ₽",
+    "image": "assets/lamp-black.png"
+  }
+]
